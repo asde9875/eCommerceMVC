@@ -135,11 +135,12 @@
                 <div class="row">
                     <div class="col-lg-3 col-md-3">
                         <div class="logo">
-                            <a href="@Url.Home()">
-                                <h4>
-                                    @* TODO: We should be able to localize the application name along with Logo *@
+                            <a href="@Url.Home()" class="d-flex align-items-center gap-2" style="text-decoration: none;">
+                                <span class="fw-bold text-dark" style="font-size: 2rem; margin-right: 12px;">
                                     @ConfigurationsHelper.ApplicationName
-                                </h4>
+                                </span>
+                                <img src="~/Content/animations/KevinWeb.gif" alt="KevinWeb Logo"
+                                     style="height: 80px; width: auto; display: inline-block;" />
                             </a>
                         </div>
                     </div>

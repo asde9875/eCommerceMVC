@@ -279,6 +279,7 @@
     <Content Include="404.html" />
     <Content Include="500.aspx" />
     <Content Include="500.html" />
+    <Content Include="Content\animations\KevinWeb.gif" />
     <Content Include="Content\css\dashboard.css" />
     <Content Include="Content\images\demo\10.png" />
     <Content Include="Content\images\demo\100.png" />

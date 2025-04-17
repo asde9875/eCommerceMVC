@@ -149,7 +149,7 @@ namespace eCommerce.Data
             Configuration ApplicationName = new Configuration()
             {
                 Key = "ApplicationName",
-                Value = "Your Store",
+                Value = "KevinWeb",
                 Description = "This is the application name that will be used accross the site.",
                 ConfigurationType = (int)ConfigurationTypes.Site,
                 ModifiedOn = DateTime.Now
@@ -158,7 +158,7 @@ namespace eCommerce.Data
             Configuration ApplicationIntro = new Configuration()
             {
                 Key = "ApplicationIntro",
-                Value = "eCommerce MVC is an extendable, adaptable eCommerce project developed with C# ASP .Net MVC framework. It has all the features a fully functional online shopping website requires.",
+                Value = "Kevin ECommerce",
                 Description = "Add description about application. This will be displayed in the footer of website.",
                 ConfigurationType = (int)ConfigurationTypes.Site,
                 ModifiedOn = DateTime.Now
@@ -203,7 +203,7 @@ namespace eCommerce.Data
             Configuration Email = new Configuration()
             {
                 Key = "Email",
-                Value = "contact@email.com",
+                Value = "khun0015@student.monash.edu",
                 Description = "Add email address of your company.",
                 ConfigurationType = (int)ConfigurationTypes.Site,
                 ModifiedOn = DateTime.Now
